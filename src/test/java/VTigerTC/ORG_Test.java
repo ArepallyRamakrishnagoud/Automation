@@ -45,6 +45,7 @@ public class ORG_Test {
 		//Create object of Login apge POM class
 		Login_page lp = new Login_page(driver);
 		lp.loginToApp(UN, PWD);
+		system.out.println("hi");
 		
 	}
 
